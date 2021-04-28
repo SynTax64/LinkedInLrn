@@ -3,7 +3,7 @@ package introToFunctionalProgramming;
 import java.util.Arrays;
 import java.util.Random;
 
-public class loopsTradVSRecursv {
+public class LoopsTradVSRecursv1 {
 	public static int arraySum(int[] array) {
 		int sum = 0;
 		for (int i = 0; i < array.length; i++) {
