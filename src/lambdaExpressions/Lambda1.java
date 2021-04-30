@@ -1,9 +1,12 @@
-package introToFunctionalProgramming;
+package lambdaExpressions;
 
 import java.util.Comparator;
 import java.util.function.Consumer;
 
+import introToFunctionalProgramming.Employee;
+
 public class Lambda1 {
+
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Comparator<Employee> byName = new Comparator<Employee>() {
