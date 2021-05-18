@@ -5,7 +5,7 @@ import java.util.List;
 
 public class GenericsExample {
 
-	@SuppressWarnings("rawtypes")
+	@SuppressWarnings({ "rawtypes" })
 	public static void main(String[] args) {
 		List names1 = new ArrayList<>();
 		names1.add("David");
